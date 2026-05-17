@@ -184,4 +184,34 @@ export default function Home() {
                 Remote / After Hours
               </h3>
 
-              <p className="text-5xl
+              <p className="text-5xl font-bold text-emerald-400 mb-6">
+                $125+
+              </p>
+
+              <p className="text-stone-400 text-lg leading-relaxed">
+                Alma, Fairplay, late-night scheduling, weather conditions, or emergency appointments.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-5xl mx-auto px-6 py-24 text-center">
+        <h2 className="text-5xl font-bold mb-8">
+          Contact Peaks Notary Services
+        </h2>
+
+        <p className="text-stone-400 text-xl mb-12 max-w-3xl mx-auto leading-relaxed">
+          Mobile notary appointments throughout Summit County and Colorado remote online notarization services.
+        </p>
+
+        <div className="space-y-4 text-xl">
+          <p>peaksnotaryservices@gmail.com</p>
+          <p className="text-stone-500">Summit County, Colorado</p>
+        </div>
+      </section>
+
+    </main>
+  )
+}
